@@ -61,6 +61,7 @@ class TestCashRegister:
         assert(self.cash_register_with_discount.total == 800)
         # self.cash_register_with_discount.total = 0
         self.reset_register_totals()
+        
 
     def test_apply_discount_success_message(self):
         '''prints success message with updated total'''
